@@ -16,6 +16,10 @@ public class TestHelloWorld {
     System.out.println("this is testEmailGenerator");
   }
 
+  @Test
+  public void testGitHub() {
+    System.out.println("testGitHub");
+  }
   @BeforeClass
   public void beforeClass() {
     System.out.println("this is beforeclass");

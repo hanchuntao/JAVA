@@ -17,9 +17,15 @@ public class TestHelloWorld {
   }
 
   @Test
-  public void testGitHub() {
-    System.out.println("testGitHub");
+  public void testGitHub1() {
+    System.out.println("testGitHub1");
   }
+
+  @Test
+  public void testGitHub2() {
+    System.out.println("testGitHub2");
+  }
+
   @BeforeClass
   public void beforeClass() {
     System.out.println("this is beforeclass");
